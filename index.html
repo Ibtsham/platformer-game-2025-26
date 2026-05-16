@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Platformer Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="game-wrap">
+    <div id="ui-bar">
+      <span id="health-display">♥ ♥ ♥</span>
+      <span id="score-display">Score: 0</span>
+    </div>
+    <canvas id="gc" width="680" height="380"></canvas>
+    <div id="msg"></div>
+    <button id="start-btn">Start / Restart</button>
+    <div id="hint">Arrow keys or WASD to move &nbsp;|&nbsp; Space / W / Up to jump (double jump!) &nbsp;|&nbsp; Stomp enemies from above</div>
+  </div>
+
+  <script src="game.js"></script>
+
+</body>
+</html>
