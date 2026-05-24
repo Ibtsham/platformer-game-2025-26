@@ -10,12 +10,15 @@
   <div id="game-wrap">
     <div id="ui-bar">
       <span id="health-display">♥ ♥ ♥</span>
+      <span id="boss-display"></span>
       <span id="score-display">Score: 0</span>
     </div>
-    <canvas id="gc" width="680" height="380"></canvas>
-    <div id="msg"></div>
+    <div id="gw-inner">
+      <canvas id="gc" width="680" height="380"></canvas>
+      <div id="msg"></div>
+    </div>
     <button id="start-btn">Start / Restart</button>
-    <div id="hint">Arrow keys or WASD to move &nbsp;|&nbsp; Space / W / Up to jump (double jump!) &nbsp;|&nbsp; Stomp enemies from above</div>
+    <div id="hint">Arrow keys / WASD to move &nbsp;|&nbsp; Space / W / Up to jump (double jump!) &nbsp;|&nbsp; Stomp enemies from above &nbsp;|&nbsp; Boss appears every 250 pts!</div>
   </div>
 
   <script src="game.js"></script>
